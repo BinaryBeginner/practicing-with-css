@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 10px;
+    margin: 10px;
+    background-color: palegreen;
+    display: flex;
+}
+
+.container__item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+/*  flex-basis: 200px;*/    
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.container__item:nth-child(2){
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.container__item:nth-child(3){
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
