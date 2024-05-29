@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: peachpuff;
+    padding: 10px;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.container__item:nth-child(even){
+    background-color: aqua;
+}
+
+.container__item:nth-child(3){
+    align-self: flex-start;
+}
