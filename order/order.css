@@ -1,0 +1,29 @@
+body{
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 10px;
+    background-color: palegoldenrod;
+    display: flex;
+    height: 300px;
+}
+
+.container__item{
+    background-color: palevioletred;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.container__item:nth-child(3){
+    order: -1;
+}
+
+
+
+.container__item:nth-child(even){
+    background-color: palegreen;
+}
