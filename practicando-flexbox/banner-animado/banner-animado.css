@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+.banner{
+    background-color: yellow;
+    display: flex;
+    margin: 10px;
+    height: 300px;
+}
+
+
+.banner__item{
+    flex: 1;
+    background-color: peru;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__item:hover{
+    flex-grow: 10;
+}
+
+.banner__item:nth-child(2){
+    flex: 1;
+    background-color: palegreen;
+}
+
+
+.banner__item:nth-child(3){
+    flex: 1;
+    background-color: palevioletred;
+}
+
+.banner__item:nth-child(4){
+    flex: 1;
+    background-color: palegoldenrod;
+}
+
+.banner__item:nth-child(5){
+    flex: 1;
+    background-color: paleturquoise;
+}
+
+.banner__title{
+    margin: auto;
+    transform: rotate(-90deg);
+}
