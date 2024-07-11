@@ -18,9 +18,7 @@
     align-items: center;
 }
 
-.banner__item:hover{
-    flex-grow: 10;
-}
+
 
 .banner__item:nth-child(2){
     flex: 1;
@@ -41,6 +39,10 @@
 .banner__item:nth-child(5){
     flex: 1;
     background-color: paleturquoise;
+}
+
+.banner__item:hover{
+    flex-grow: 10;
 }
 
 .banner__title{
